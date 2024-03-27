@@ -25,7 +25,7 @@ function shuffleArray(array) {
     }
 }
 
-// periodic reshuffle
+// periodic reshuffle - doesnt work
 function shuffleList(id) {
     var list = document.getElementById(id);
     for (var i = list.children.length; i >= 0; i--) {
