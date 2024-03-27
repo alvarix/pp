@@ -3,7 +3,6 @@
     .links {
         width: 90%;
         margin: 40px auto;
-        Xtext-align: center;
     }
 
     li.social .flex {
@@ -32,13 +31,13 @@
         white-space: nowrap;
     }   
 
-    .links .form::before,
-    .links a.shop::before {
-        display: none !important;
+    .social a {
+        padding-left: 0;
     }
 
-    .social li a::before {
-        transform: translateY(-40%);
+    .links .form::before,
+    .links a::before {
+        display: none !important;
     }
 
     #thumbs li {
@@ -50,7 +49,7 @@
     }
 
     .shop a {
-        width: 70vw;
+        width: 60vw;
         display: block;
         text-align: center;
     }
