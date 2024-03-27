@@ -1,12 +1,13 @@
 :root {
     --font:  "Caprasimo", serif;
     --font:  "cooper-black-std", "Caprasimo", serif;
+    --font-body: Georgia, 'Times New Roman', Times, serif;
     --btn-color: #FEC97A;
 }
 
 body {
     background-color: #F3F3F3;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: var(--font-body);
 }
 
 .flex {
@@ -153,6 +154,10 @@ body #mc_embed_signup form {
 
 body .mc-field-group {
     padding-bottom: 9px;
+}
+
+body #mc_embed_signup * {
+    font-family: var(--font-body);
 }
 
 body #mc_embed_signup div#mce-responses {
