@@ -29,11 +29,16 @@
 
     .links a {
         margin-left: 0;
+        white-space: nowrap;
     }   
 
     .links .form::before,
     .links a.shop::before {
         display: none !important;
+    }
+
+    .social li a::before {
+        transform: translateY(0%);
     }
 
     #thumbs li {
