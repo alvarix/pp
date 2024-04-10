@@ -125,9 +125,12 @@ li.insta::before {
     background-image: url(img/icon-fb.svg);
 }
 
+a {
+    color: #000;
+} 
+
 .shop a {
     font-size: 20px;
-    background-color: #;
     padding: 12px 35px;
     border-radius: 25px;
     margin-left: 50px;
@@ -197,4 +200,7 @@ body #mc_embed_signup .button {
 
 #bio {
     text-align: center;
+    width: 60vw;
+    margin: 20px auto;
+    line-height: 1.5;
 }
