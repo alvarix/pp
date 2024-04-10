@@ -1,11 +1,11 @@
 // create ul of thumbs
-thumb_gallery = (id) => {
-    const n = 25;
+gallery = (id, format, num) => {
+    const n = num;
     const ul = document.getElementById(id);
     const imgPaths = [];
 
     for (let i = 1; i <= n; i++) {
-        imgPaths.push("img/thumb-" + i + ".png");
+        imgPaths.push("img/" + id + "/" + i + '.' + format);
     }
     shuffleArray(imgPaths);
     imgPaths.forEach(path => {
@@ -35,6 +35,6 @@ function shuffleList(id) {
  
 
 // id of gallery
-const id ='thumbs';
-thumb_gallery(id);
+gallery('thumbs', 'png', 25);
+gallery('gallery', 'jpg', 10);
 setInterval(shuffleList(id), 1000);

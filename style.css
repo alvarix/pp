@@ -180,3 +180,18 @@ body #mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
 body #mc_embed_signup .button {
     margin-bottom: 0;
 }
+
+
+#gallery img {
+    max-width: 75vw;
+}
+
+#gallery {
+    background-color: #fff;
+    margin:40px 0;
+    padding:150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
