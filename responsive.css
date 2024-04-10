@@ -1,3 +1,6 @@
+@media screen  and (max-width: 600px) {
+    .insta span { display: none; }
+}
 @media screen  and (max-width: 500px) {
         
     .links {
@@ -27,16 +30,17 @@
     }
 
     .links a {
-        margin-left: 0;
         white-space: nowrap;
     }   
 
-    .social a {
-        padding-left: 0;
+
+    .links .form a,
+    .links li.shop a {
+        margin-left: 0;
     }
 
     .links .form::before,
-    .links a::before {
+    .links li.shop::before {
         display: none !important;
     }
 

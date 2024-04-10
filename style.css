@@ -96,8 +96,7 @@ li.form {
 }
 
 li.form::before,
-li.email a::before,
-.links a::before {
+.links li::before {
     content: "";
     display: block;
     width: 40px;
@@ -114,15 +113,15 @@ li.form::before {
     background-image: url(img/icon-email.svg);
 }
 
-li.email a::before {
+li.email::before {
     background-image: url(img/icon-email.svg);
 }
 
-.insta a::before {
+li.insta::before {
     background-image: url(img/icon-insta.svg);
 }
 
-.fb a::before {
+.fb::before {
     background-image: url(img/icon-fb.svg);
 }
 
