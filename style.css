@@ -181,7 +181,6 @@ body #mc_embed_signup .button {
     margin-bottom: 0;
 }
 
-
 #gallery img {
     max-width: 75vw;
 }
@@ -194,4 +193,8 @@ body #mc_embed_signup .button {
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
+}
+
+#bio {
+    text-align: center;
 }
