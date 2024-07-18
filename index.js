@@ -34,7 +34,18 @@ function shuffleList(id) {
   }
  
 
-// id of gallery
-gallery('thumbs', 'png', 25);
-gallery('gallery', 'jpg', 10);
-setInterval(shuffleList(id), 1000);
+function refreshPage() {
+    location.reload();
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+
+
+    const refreshIcon = document.getElementById('refreshIcon');
+    refreshIcon.addEventListener('click', refreshPage);
+    // id of gallery
+    gallery('thumbs', 'png', 33);
+    gallery('gallery', 'jpg', 10);
+    // setInterval(shuffleList(id), 1000);
+
+});

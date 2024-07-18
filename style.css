@@ -5,6 +5,26 @@
     --btn-color: #FEC97A;
 }
 
+#thumbs li:nth-child(n+21) {
+    display: none;
+}
+
+
+.refresh-icon svg:hover {
+    animation: rotate 2s linear infinite;
+    cursor: pointer;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
 body {
     background-color: #F3F3F3;
     font-family: var(--font-body);
@@ -45,7 +65,7 @@ h2 {
 }
 
 #thumbs li {
-    width: 7%;
+    width: 10%;
 }
 
 #thumbs img {
